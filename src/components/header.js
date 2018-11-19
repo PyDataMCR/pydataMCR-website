@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Logo from '../images/PyDataLogo.png'
 
 const Header = ({ siteTitle }) => (
   <div
@@ -23,7 +24,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
-          PyDataMCR
+          <img src={Logo}></img>
         </Link>
       </h1>
     </div>
