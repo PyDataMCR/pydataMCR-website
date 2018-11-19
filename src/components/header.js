@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
-          {siteTitle}
+          PyDataMCR
         </Link>
       </h1>
     </div>
