@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0, maxHeight: 101 }}>
+      <h1 style={{ margin: 0}}>
         <Link
           to="/"
           style={{
@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
-          <img src={Logo}></img>
+          <img src={Logo} style={{ maxHeight: 101 }}></img>
         </Link>
       </h1>
     </div>
